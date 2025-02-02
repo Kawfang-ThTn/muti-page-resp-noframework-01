@@ -51,12 +51,6 @@ a {
   font-weight: 700;
 }
 
-.lead {
-  font-size: 1.1rem;
-  color: var(--water-white);
-  line-height: 1.5rem;
-}
-
 header {
   position: relative;
   overflow: hidden;
@@ -114,14 +108,63 @@ header .navbar ul li {
   right: 0;
 }
 
-.showcase-wrapper .showcase-circle-image {
+.showcase-wrapper .circle-image {
   position: absolute;
   top: 0;
   z-index: -1;
-  transform: translate(130%,-30%);
+  transform: translate(125%,-10%);
 }
 
-.showcase-wrapper .showcase-circle-image img{
+.showcase-wrapper .circle-image img{
   object-fit: cover;
   width: 100%;
+}
+
+#our-client {
+  background-color: var(--dark-blue);
+  padding: 8rem 0;
+  margin: 6rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.client-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  z-index: 10;
+}
+
+.client-content {
+  font-size: 1.1rem;
+  color: var(--water-white);
+  line-height: 1.5rem;
+}
+
+.client-content h2 {
+  font-size: 2rem;
+  color: var(--light-pink);
+  margin-bottom: 1rem;
+}
+
+.client-content p {
+  line-height: 1.5 ;
+}
+
+.client-content button{
+  margin: 2rem 0;
+  color: var(--light-pink);
+  font-weight: 700;
+}
+
+.logo-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-img img {
+  object-fit: cover;
+  margin: 2rem 3rem;
 }
