@@ -168,3 +168,50 @@ header .navbar ul li {
   object-fit: cover;
   margin: 2rem 3rem;
 }
+
+#our-service {
+  margin: 2rem 0;
+  position: relative;
+}
+
+.service-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3rem;
+} 
+
+.service-content {
+  color: var(--light-blue);
+  line-height: 1.5rem;
+}
+.service-content h2{
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+}
+
+.service-content p {
+  width: 80%;
+}
+
+.service-wrapper-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+.service-wrapper-grid img {
+  object-fit: cover;
+  width: 70%;
+  height: auto;
+}
+
+.service-wrapper .circle-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  transform: translate(-6%,22%);
+  scale: 0.8;
+}
