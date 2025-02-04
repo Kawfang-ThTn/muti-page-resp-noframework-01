@@ -172,13 +172,14 @@ header .navbar ul li {
 #our-service {
   margin: 2rem 0;
   position: relative;
+ 
 }
 
 .service-wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 5rem;
 } 
 
 .service-content {
@@ -212,6 +213,6 @@ header .navbar ul li {
   top: 0;
   right: 0;
   z-index: -1;
-  transform: translate(-6%,22%);
+  transform: translate(-6%,25%);
   scale: 0.8;
 }
