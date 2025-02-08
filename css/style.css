@@ -69,7 +69,7 @@ header .navbar{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0;
+  padding: 1rem 0.5rem;
 }
 
 header .navbar ul {
@@ -338,6 +338,11 @@ header .navbar ul li:hover{
   gap: 2rem;
 }
 
+#footer .container .footer-wrapper .social-icon img{
+  width: 50px;
+  height: 50px;
+}
+
 #footer .container .footer-wrapper .logo img:hover{
   transform: scale(1.1);
   transition: 0.5s;
@@ -352,4 +357,103 @@ header .navbar ul li:hover{
   cursor: pointer;
   transform: scale(1.3);
   transition: 1.5s;
+}
+
+/* Header - Pricing/About Page*/
+
+#header  {
+  position: relative;
+}
+
+#header .navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+#header .navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+
+#header .navbar ul li {
+  margin-right: 3rem;
+}
+
+#header .navbar .logo img:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+#header .navbar ul li:hover{
+  transform: scale(1.3);
+  transition: 1s;
+}
+
+#header .container .circle-image {
+  position: absolute;
+  top: 0;
+  transform: translate(125%,-60%);
+  z-index: -1;
+}
+
+#header .container .circle-image img{
+  object-fit: cover;
+  width: 100%;
+}
+
+#header .container h2{
+  font-size: 3.5rem;
+  color: var(--light-blue);
+  margin: 6rem 0.5rem;
+  font-weight: 600;
+  width: 75%;
+}
+
+/* About page*/
+#about .about-wrapper .vision-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 3rem;
+}
+
+#about .about-wrapper .vision-content h2{
+  font-size: 2.5rem;
+  color: var(--light-pink);
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+#about .about-wrapper .vision-content p{
+  font-size: 1rem;
+  color: var(--light-gray);
+  margin-bottom: 1rem;
+}
+
+#about .about-wrapper .business-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 3rem;
+}
+
+#about .about-wrapper .business-content h2{
+  font-size: 2.5rem;
+  color: var(--light-pink);
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+#about .container .about-wrapper .business-content p{
+  font-size: 1rem;
+  color: var(--light-gray);
+  margin-bottom: 1rem;
+}
+
+#about-carousel {
+  margin: 4rem 0;
+}
+#about-carousel img{
+  width: 100%;
+  object-fit: cover;
 }
