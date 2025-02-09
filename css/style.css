@@ -99,7 +99,7 @@ header .navbar ul li:hover{
 }
 
 .showcase-content {
-  font-size: 1.3rem;
+  font-size: 2rem;
   color: var(--light-blue);
 }
 
@@ -408,7 +408,7 @@ header .navbar ul li:hover{
   color: var(--light-blue);
   margin: 6rem 0.5rem;
   font-weight: 600;
-  width: 75%;
+  width: 60%;
 }
 
 /* About page*/
@@ -518,4 +518,17 @@ header .navbar ul li:hover{
   font-size: 1rem;
   color: var(--light-gray);
   margin-bottom: 1rem;
+}
+
+/* contact page*/
+#request {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 2rem;
+  padding: 3rem;
+}
+
+#request .form{
+  display: ;
 }
