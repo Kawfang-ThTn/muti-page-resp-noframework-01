@@ -119,6 +119,7 @@ header .navbar ul li:hover{
   font-family: inherit;
   font-weight: 500;
   width: 100%;
+  box-shadow: var(--light-gray) 2px 2px 2px;
 }
 .showcase-content form input:hover {
   background-color: var(--light-yellow);
@@ -296,6 +297,7 @@ header .navbar ul li:hover{
   font-family: inherit;
   font-weight: 500;
   width: 100%;
+  box-shadow: var(--light-gray) 2px 2px 2px;
 }
 
 .pos-con-form input:hover{
@@ -521,14 +523,96 @@ header .navbar ul li:hover{
 }
 
 /* contact page*/
-#request {
+#request .request-wrapper{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  margin: 4rem 2rem;
-  padding: 3rem;
 }
 
 #request .form{
-  display: ;
+  display: flex;
+  flex-direction: column;
+}
+
+#request .form h2{
+  margin-bottom: 1rem;
+  color: var(--dark-pink);
+  font-weight: 600;
+}
+
+#request .form .inp{
+  display: flex;
+  flex-direction: column;
+}
+
+#request .form .inp input{
+  margin-top: 0.4rem;
+  border: none;
+  box-shadow: var(--light-gray) 2px 2px 2px;
+  border-radius: 0.3rem;
+  background-color: var(--water-white);
+  width: 100%;
+  height: 40px;
+}
+
+#request .form .inp input:hover{
+  background-color: var(--light-yellow);
+  transition: 1.5s;
+}
+
+#request .form .inp input:focus{
+  background-color: var(--light-green);
+  transition: 1.5s;
+}
+
+#request .form .inp textarea{
+  margin-top: 0.4rem;
+  border: none;
+  box-shadow: var(--light-gray) 2px 2px 2px;
+  border-radius: 0.3rem;
+  background-color: var(--water-white);
+}
+
+#request .form .inp textarea:hover{
+  background-color: var(--light-yellow);
+  transition: 1.5s;
+}
+
+#request .form .inp textarea:focus{
+  background-color: var(--light-green);
+  transition: 1.5s;
+}
+
+#request .form .lab{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-top: var(--light-gray) 1px solid;
+}
+
+#request .form .lab h5{
+  margin-top: 1rem;
+}
+
+#request .sponsor-wrapper .sponsor-text{
+  margin-bottom: 2rem;
+}
+
+#request .sponsor-wrapper .sponsor-logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: var(--light-blue);
+  border-radius: 0.5rem;
+}
+
+#request .sponsor-wrapper .sponsor-logo .spon-img{
+  margin-top: 1rem;
+}
+
+#request .sponsor-wrapper .sponsor-logo .spon-img img{
+  margin-right: 2rem;
 }
